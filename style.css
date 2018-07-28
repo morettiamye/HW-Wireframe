@@ -22,7 +22,7 @@ body {
     background-color: #ebebeb;
     width: 100%;
     padding: 20px;
-    margin: bottom: 20px;
+    margin-bottom: 20px;
     float: left;
     overflow: auto;
     clear: both;
@@ -32,22 +32,29 @@ body {
     background-color: #ebebeb;
     width: 495px;
     float: left;
-    overflow: auto;
     clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #article {
     background-color: #777;
     color: #ebebeb;
+    width: 480px;
+    margin-top: 20px;
     float: left;
-    overflow: auto;
-    clear: both;
+
 }
 
 #h1-h2-h3 {
     background-color: #ebebeb;
     color: #777;
     width: 480px;
+    margin: 10px;
     float:left;
     overflow: auto;
     clear: both;
@@ -57,7 +64,9 @@ body {
     background-color: #ebebeb;
     color: #777;
     width: 480px;
+    margin: 10px;
     float: left;
+    overflow: auto;
     clear: left;
 
 }
